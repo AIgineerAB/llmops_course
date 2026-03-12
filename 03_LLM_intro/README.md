@@ -28,6 +28,7 @@ You could use your github account or gmail to sign up.
 
 <img src="https://github.com/kokchun/assets/blob/main/ai_engineering/openrouter_api_key.png?raw=true" alt="getting API key" width="400">
 
+Create an API key and remember to copy it directly as it will only show once for you.
 
 Now create a .env and add the following line 
 
