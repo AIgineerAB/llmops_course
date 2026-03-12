@@ -39,7 +39,7 @@ If you name it OPENROUTER_API_KEY, then pydanticai Agent that we'll use, will fi
 
 
 > [!important]
-> make sure that .env is in your .gitignore so you don't 
+> make sure that .env is in your .gitignore so you don't push it to github
 
 
 
