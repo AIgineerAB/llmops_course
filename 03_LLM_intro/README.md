@@ -44,6 +44,6 @@ If you name it OPENROUTER_API_KEY, then pydanticai Agent that we'll use, will fi
 
 
 
-## Other videos 📹
-
 ## Read more 👓
+
+- [openrouter models free](https://openrouter.ai/models?order=pricing-low-to-high&max_price=0)
