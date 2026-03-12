@@ -58,9 +58,6 @@ We will install more packages when needing them
 | uv python list         | lists available python versions                            |
 |                        |                                                            |
 
-
-
-
 ## Read more
 
 - [uv on github](https://github.com/astral-sh/uv)
