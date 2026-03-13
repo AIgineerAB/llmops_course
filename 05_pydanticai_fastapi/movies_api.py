@@ -8,7 +8,7 @@ load_dotenv()
 
 app = FastAPI()
 
-agent = Agent(model="google-gla:gemini-2.5-flash", output_type=Movie)
+agent = Agent(model="openrouter:arcee-ai/trinity-mini:free")
 
 
 @app.get("/movies")
@@ -19,7 +19,7 @@ async def read_movies():
 
 @app.post("/movie")
 async def create_movie(query: Prompt):
-    result = await agent.run(query.prompt)
+    result = await agent.run(query.prompt, output_type=Movie)
     movie = result.output
 
     # protect against SQL injection
