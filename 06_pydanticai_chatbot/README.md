@@ -1,25 +1,27 @@
-# PydanticAI chatbot
+# PydanticAI FastAPI chatbot
 
 ## TODO: need to update to OpenRouter and api endpoint for chat
 
-**build chatbot using PydanticAI and streamlit**
 
-<a href="https://www.youtube.com/watch?v=fx0jIFbz8YM" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/ai_engineering/pydanticai_streamlit.png?raw=true" alt="pydantic for data validation" width="600">
-</a>
 
 
 
 <br/>
 
-> [!NOTE]
-> This demo shows a tightly coupled solution between the backend and the frontend. To make it more decoupled, use your knowledge in FastAPI and build an API between them.
 
 
 ## Read more
 - [PydanticAI and fastapi](https://ai.pydantic.dev/examples/chat-app/)
 
 ## Other videos
+
+These videos show a version where we have tightly coupled chatbot backend and frontend. In the main video above, I have decoupled them with a FastAPI layer in between. 
+
+**build chatbot using PydanticAI and streamlit**
+
+<a href="https://www.youtube.com/watch?v=fx0jIFbz8YM" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/ai_engineering/pydanticai_streamlit.png?raw=true" alt="pydantic for data validation" width="600">
+</a>
 
 **build chatbot using PydanticAI and Taipy**
 
