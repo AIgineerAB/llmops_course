@@ -9,9 +9,9 @@
 
 **part 2 - Working with OpenRouter API**
 
-<!-- <a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/ai_engineering/.png?raw=true" alt="pydantic for data validation" width="600">
-</a> -->
+<a href="https://youtu.be/LiwYZ1wbjNk" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/ai_engineering/openrouter_intro.png?raw=true" alt="openrouter and pydanticai" width="600">
+</a>
 
 - OpenRouter
 - LLM 
