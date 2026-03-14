@@ -7,6 +7,9 @@
 </a>
 
 
+<br>
+<br>
+
 **part 2 - Working with OpenRouter API**
 
 <a href="https://youtu.be/LiwYZ1wbjNk" target="_blank">
