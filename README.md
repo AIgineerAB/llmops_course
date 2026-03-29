@@ -25,13 +25,11 @@ For this you will be using the following tools:
 
 Prerequisites for this course are:
 
-| **Week** | **Content** | **Lectures** | **Exercise** |
-| -------- | ----------- | ------------ | ------------ |
-| 1        | LLM intro   | 00-04        | 0            |
-| 2        |             |              | 1            |
-| 3        |             |              | 2            |
-| 4        |             |              | 3            |
-| 5        |             |              |              |
-| 6        |             |              |              |
-| 7        |             |              |              |
-| 8        |             |              |              |
+| **Week** | **Content**                                                        | **Lectures** | **Exercise** |
+| -------- | ------------------------------------------------------------------ | ------------ | ------------ |
+| 1        | llm intro, llmops intro, openrouter, pydanticai, structured output | 00-04        | 0            |
+| 2        | pydanticai + fastapi, chatbot, mlflow llm judge                    | 05-07        | 1            |
+| 3        | mlflow + fastapi + pydanticai                                      | 08           | 2            |
+| 4        | lancedb vector database, rag, project work                         | 09-10        | project      |
+| 5        | dockerization and azure deployment, project work                   | 11-13        | project      |
+| 6        | project work                                                       |              | project      |
