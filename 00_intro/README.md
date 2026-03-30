@@ -1,6 +1,6 @@
 # Introduction to LLMOps
 
-## TODO slides 
+
 ## TODO video
 
 <a href="" target="_blank">
