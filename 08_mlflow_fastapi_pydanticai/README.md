@@ -5,6 +5,9 @@
 </a>
 
 
+> [!NOTE]
+> in this lecture I have also created a python package, so that it would be easier to separate folders and files 
+
 ## Read more
 
 
