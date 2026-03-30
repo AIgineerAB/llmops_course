@@ -28,6 +28,9 @@ logging_middleware(app)
 async def health():
     return {"status": "ok"}
 
+
+# should actually use POST here and not GET, this was just a quick and dirty way to test it 
+# but I forgot to change it when I recorded the video
 @app.get("/customer_support")
 async def customer_support_faq(question: str) -> str:
     """ask question to our customer support bot"""
