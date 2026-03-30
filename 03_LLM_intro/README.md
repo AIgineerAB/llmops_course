@@ -1,5 +1,6 @@
 # LLM introduction
 
+
 **part 1 - General theory about LLM**
 
 <a href="https://youtu.be/Ei66WLCs0aw" target="_blank">
@@ -8,6 +9,8 @@
 
 
 <br>
+
+
 <br>
 
 **part 2 - Working with OpenRouter API**
@@ -15,6 +18,9 @@
 <a href="https://youtu.be/LiwYZ1wbjNk" target="_blank">
   <img src="https://github.com/kokchun/assets/blob/main/ai_engineering/openrouter_intro.png?raw=true" alt="openrouter and pydanticai" width="600">
 </a>
+
+> [!NOTE]
+> models come and go quite quickly in OpenRouter, some may change their billing, some could be rate limited upstreams or other reasons you can't use the models. The easiest solution here is to check for another model and use that instead
 
 - OpenRouter
 - LLM 
