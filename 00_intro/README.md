@@ -4,7 +4,6 @@
   <img src="https://github.com/kokchun/assets/blob/main/ai_engineering/llmops_intro.png?raw=true" alt="llmops intro" width="600">
 </a>
 
-
-## Other videos 📹
-
 ## Read more 👓
+
+[What is LLMOps - databricks blog](https://www.databricks.com/blog/what-is-llmops)
