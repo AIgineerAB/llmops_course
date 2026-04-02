@@ -1,9 +1,6 @@
-# PydanticAI FastAPI chatbot
+# Fullstack PydanticAI + FastAPI + Streamlit chatbot
 
-## TODO: need to update to OpenRouter and api endpoint for chat
-
-
-
+## TODO: video
 
 
 <br/>

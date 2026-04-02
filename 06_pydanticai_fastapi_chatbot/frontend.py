@@ -1,14 +1,12 @@
 import streamlit as st
-from chat import JokeBot
-
+import httpx
 
 def init_session_states():
-    # initialize chat history
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
-    if "bot" not in st.session_state:
-        st.session_state.bot = JokeBot()
+    if "message_history" not in st.session_state:
+        st.session_state.message_history = []
 
 
 def display_chat_messages():
@@ -18,11 +16,20 @@ def display_chat_messages():
 
 
 def handle_user_input():
-
     if prompt := st.chat_input("Talk to the JokeBot"):
         st.session_state.messages.append({"role": "user", "content": prompt})
 
-        bot_response = st.session_state.bot.chat(prompt).get("bot")
+        response = httpx.post(
+            "http://127.0.0.1:8000/chat",
+            json={
+                "question": prompt, "message_history": st.session_state.message_history
+            },
+        ).json()
+
+        st.session_state.message_history = response.get("message_history")
+
+        bot_response = response.get("response")
+        st.write(bot_response)
 
         response = f"Ro Båt: {bot_response}"
 
