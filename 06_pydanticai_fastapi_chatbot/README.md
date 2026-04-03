@@ -1,6 +1,8 @@
 # Fullstack PydanticAI + FastAPI + Streamlit chatbot
 
-## TODO: video
+<a href="https://youtu.be/sGR2DCstveY" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/ai_engineering/fullstack_chatbot.png?raw=true" alt="fullstack chatbot" width="600">
+</a>
 
 
 <br/>
