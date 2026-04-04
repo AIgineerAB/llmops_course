@@ -1,34 +1,41 @@
-# Exercise 0 -
+# Exercise 0 - PydanticAI and OpenRouter
 
-In this exercise, you get to familiarize yourself with ...
+In this exercise, you get to work with data validation using Pydantic v2 and PydanticAI. Output in general from LLMs are unstructured and hard to work with, to get any value from it you need to structure the output and validate its contents. This can be done with Pydantic.
 
-## 0. practical exercise
+## 0. Summarize job ads
 
-DESCRIPTION
+In the data folder, there are a few job ads taken from arbetsförmedlingen.se.
 
-&nbsp; a)
+a) Read all the jobs ads into python
 
-&nbsp; b)
+b) Create a function that uses PydanticAI agent to summarize a job ad. This function should take in an ad as its parameter and return a summary.
 
-&nbsp; c)
+c) Now create and export markdown files for each job ad and its corresponding summary.
 
-&nbsp; d)
+d) Try to take other job ads from arbetsförmedlingen.se and see how well your function performs.
 
-&nbsp; e)
+e) Make the output structured using a pydantic model together with PydanticAI agent. The output from the agent should have the following fields: 
+- job_title
+- description 
+- summary 
+- responsibilities 
+- words_in_article
 
-## 1. practical exercise
+## 1. Product extractor
 
-DESCRIPTION
+In this task you will based on product descriptions, be able to extract out relevant information into structured format using pydantic model together with PydanticAI agent.  
 
-&nbsp; a)
+a) Read the `products.json` and store all of its descriptions into a list 
 
-&nbsp; b)
+b) Loop through this list and extract structured output from each of the descriptions. The structure should have the fields: name, price, category, in_stock and description 
 
-&nbsp; c)
+c) Now try to validate programmatically if the output fields are correct. 
 
-&nbsp; d)
+> [!NOTE] 
+> some of the fields might be straightforward as some others might require the use of another LLM agent
 
-&nbsp; e)
+
+
 
 ## 2. Theory questions
 
