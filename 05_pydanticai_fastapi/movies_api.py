@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from pydantic_ai import Agent
+from pydantic_ai import Agent, ModelSettings
 from dotenv import load_dotenv
 from utils import query_duckdb
 from data_models import Movie, Prompt
@@ -8,7 +8,9 @@ load_dotenv()
 
 app = FastAPI()
 
-agent = Agent(model="openrouter:arcee-ai/trinity-mini:free")
+agent = Agent(
+    model="openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+)
 
 
 @app.get("/movies")
