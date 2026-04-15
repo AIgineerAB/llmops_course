@@ -66,7 +66,7 @@ c) Make structured output with fields proposed_grade, motivation and improvement
 
 d) Output a folder with the following txt files: proposed_grade.txt, motivation.txt and improvements.txt
 
-e) Go [into skolverket for Svenska 1](https://www.skolverket.se/undervisning/gymnasieskolan/program-och-amnen-i-gymnasieskolan/hitta-program-amnen-och-kurser-i-gymnasieskolan-gy11/amne?url=907561864%2Fsyllabuscw%2Fjsp%2Fsubject.htm%3FsubjectCode%3DSVE%26version%3D8%26tos%3Dgy&sv.url=12.5dfee44715d35a5cdfa92a3) and copy "Betygskriterier" for "Svenska 1". These are the criterias for the different grades. Paste this into a file called `criterias.txt`.
+e) In the data folder there is a file called svenska1_criterias.txt and copy "Betygskriterier" for "Svenska 1". These are the criterias for the different grades. Read these into Python and use them for f).
 
 f) Now repeat b)-e) but with the criterias in your prompt as well. Can you see any differences in the outputs?
 
