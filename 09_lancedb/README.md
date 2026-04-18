@@ -5,6 +5,12 @@
 </a>
 
 
+## Setup 
+
+```bash
+uv add sentence-transformers lancedb
+```
+
 ## Read more
 - [lancedb docs](https://lancedb.com/docs/)
 - [lancedb quickstart](https://lancedb.com/docs/quickstart/)
