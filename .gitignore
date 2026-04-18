@@ -174,3 +174,4 @@ cython_debug/
 
 .vscode
 
+vector_database

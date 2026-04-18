@@ -8,8 +8,17 @@
 ## Setup 
 
 ```bash
-uv add sentence-transformers lancedb
+uv add lancedb
 ```
+
+You need to put in this into your .env 
+
+```env
+COHERE_API_KEY=YOUR_API_KEY
+```
+
+Paste in your api key from cohere - [create it here](https://dashboard.cohere.com/api-keys)
+
 
 ## Read more
 - [lancedb docs](https://lancedb.com/docs/)
