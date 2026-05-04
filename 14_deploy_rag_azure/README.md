@@ -43,7 +43,10 @@ Push the image to Azure container registry
 docker buildx build --platform linux/amd64 --provenance=false -f dockerfiles/frontend.dockerfile -t <ACR_LOGIN_SERVER>/ragnimal-frontend:v1 --push .
 ```
 
+Edit the environment variables to add
+
 - API_URL=<BACKEND_URL>
+- WEBSITES_PORT=8501
 
 
 
